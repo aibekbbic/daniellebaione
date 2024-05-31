@@ -21,16 +21,6 @@
   }
 }
 
-@media screen and (max-width: $desktop-l) {
-  .main_container {
-  }
-}
-
-@media screen and (max-width: $desktop) {
-  .main_container {
-  }
-}
-
 @media screen and (max-width: $tablet) {
   .main_container {
     width: 95%;
@@ -41,10 +31,5 @@
   .main_container {
     width: 97%;
     aspect-ratio: 3/2;
-  }
-}
-
-@media screen and (max-width: $mobile-xs) {
-  .main_container {
   }
 }

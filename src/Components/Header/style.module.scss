@@ -41,16 +41,6 @@
   }
 }
 
-@media screen and (max-width: $desktop-l) {
-  .header_container {
-  }
-}
-
-@media screen and (max-width: $desktop) {
-  .header_container {
-  }
-}
-
 @media screen and (max-width: $tablet) {
   .header_container {
     width: 95%;
@@ -61,10 +51,5 @@
   .header_container {
     width: 97%;
     aspect-ratio: 3/2;
-  }
-}
-
-@media screen and (max-width: $mobile-xs) {
-  .header_container {
   }
 }
