@@ -1,0 +1,51 @@
+@import "../../_color_vars";
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-bottom: 10px;
+  column-gap: clamp(0.5rem, 0.446vw + 0.357rem, 1rem);
+}
+.prev,
+.next {
+  display: flex;
+  width: clamp(0.667rem, 2.232vw + 0.429rem, 1.5rem);
+}
+.svg {
+  width: 100%;
+  color: $grey;
+  transition: 0.3s ease-in;
+}
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+}
+
+.prev.disabled .svg,
+.next.disabled .svg {
+  color: $grey;
+  opacity: 0.8;
+}
+
+.prev:hover .svg,
+.next:hover .svg {
+  color: $orange;
+}
+
+// delete hover on mobile devices
+@media (hover: hover) {
+  .prev:hover.svg,
+  .next:hover .svg {
+    color: $orange;
+  }
+}
+@media (hover: none) {
+  .prev:active.svg,
+  .next:active .svg {
+    color: $orange;
+  }
+}

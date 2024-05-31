@@ -1,0 +1,9 @@
+@import "../../_color_vars";
+@import "../../vars";
+
+.text_content {
+  text-align: center;
+  color: $white;
+  font-size: clamp(0.625rem, 0.5179rem + 0.5357vw, 1rem);
+  margin-bottom: 30px;
+}

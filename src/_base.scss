@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import "./color_vars";
+
+html,
+body {
+  height: 100%;
+}
+
+header,
+main,
+footer {
+  width: 100%;
+}
+main {
+  flex: 1 0 auto;
+}
+
+body {
+  background-color: $black;
+}
+
+body * {
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 1.5em;
+}
+h1 {
+  font-family: "Cinzel", serif;
+}
+body {
+  --s: 150px; /* control the size */
+
+  background: linear-gradient(135deg, #0000 18.75%, #130000 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #130000 -6.25% 6.25%, #000000 0 18.75%);
+  background-size: var(--s) var(--s);
+}

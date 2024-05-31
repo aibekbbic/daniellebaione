@@ -1,0 +1,50 @@
+@import "../../_color_vars";
+@import "../../vars";
+
+.main {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  aspect-ratio: 3/1;
+}
+
+.main_container {
+  width: 100%;
+  margin: auto;
+}
+
+// media queries
+@media screen and (max-width: $desktop-xl) {
+  .main_container {
+    width: 90%;
+    max-width: 1100px;
+  }
+}
+
+@media screen and (max-width: $desktop-l) {
+  .main_container {
+  }
+}
+
+@media screen and (max-width: $desktop) {
+  .main_container {
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .main_container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .main_container {
+    width: 97%;
+    aspect-ratio: 3/2;
+  }
+}
+
+@media screen and (max-width: $mobile-xs) {
+  .main_container {
+  }
+}

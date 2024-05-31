@@ -1,0 +1,16 @@
+@import "../../_color_vars";
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: $white;
+}
+.swiper-pagination-bullet {
+  background: $grey;
+}
+.swiper-pagination-bullet-active {
+  background: $white;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: clamp(0.875rem, 0.4107rem + 2.3214vw, 2.5rem) !important;
+}

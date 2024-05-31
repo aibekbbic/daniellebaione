@@ -1,0 +1,70 @@
+@import "../../_color_vars";
+@import "../../vars";
+
+.header {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  aspect-ratio: 3/1;
+  background-image: url(../../images/violin_title.jpg);
+  background-color: $black;
+  background-position: 50% 50%; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header_container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.header_title {
+  font-size: clamp(1rem, 0.2143rem + 3.9286vw, 3.75rem);
+  color: $grey;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.header_description {
+  text-align: center;
+  font-size: clamp(0.5rem, 0.2857rem + 1.0714vw, 1.25rem);
+  color: $orange;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+//
+
+// media queries
+@media screen and (max-width: $desktop-xl) {
+  .header_container {
+    width: 90%;
+    max-width: 1100px;
+  }
+}
+
+@media screen and (max-width: $desktop-l) {
+  .header_container {
+  }
+}
+
+@media screen and (max-width: $desktop) {
+  .header_container {
+  }
+}
+
+@media screen and (max-width: $tablet) {
+  .header_container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header_container {
+    width: 97%;
+    aspect-ratio: 3/2;
+  }
+}
+
+@media screen and (max-width: $mobile-xs) {
+  .header_container {
+  }
+}

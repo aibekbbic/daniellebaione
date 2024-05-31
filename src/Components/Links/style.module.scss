@@ -1,0 +1,24 @@
+@import "../../_color_vars";
+@import "../../vars";
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  margin-bottom: 10px;
+  column-gap: clamp(0.3rem, 0.625vw + 0.1rem, 1rem);
+}
+.link {
+  display: flex;
+  width: clamp(0.75rem, 2.232vw + 0.393rem, 2rem);
+}
+.link svg {
+  width: 100%;
+  color: $white;
+  transition: 0.3s ease-in;
+}
+.link:hover {
+  color: $darkblue;
+}
