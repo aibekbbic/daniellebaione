@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/daniellebaione/static/css/main.6e75303d.css",
+    "main.js": "/daniellebaione/static/js/main.617ce6a3.js",
+    "static/media/slider_image_4.jpg": "/daniellebaione/static/media/slider_image_4.5f2f14cfee768f10d4bb.jpg",
+    "static/media/slider_image_2.jpg": "/daniellebaione/static/media/slider_image_2.e42babe4177e3e8c9127.jpg",
+    "static/media/slider_image_3.jpg": "/daniellebaione/static/media/slider_image_3.376b7a88b784e471e3b8.jpg",
+    "static/media/swiper_photo_1.jpg": "/daniellebaione/static/media/swiper_photo_1.bd041a51152d012a4b39.jpg",
+    "static/media/slider_image_5.jpg": "/daniellebaione/static/media/slider_image_5.4a69e4410ee82a5aa287.jpg",
+    "static/media/violin_title.jpg": "/daniellebaione/static/media/violin_title.e7167f12b95825d184f7.jpg",
+    "static/media/swiper_photo_2.jpg": "/daniellebaione/static/media/swiper_photo_2.640f72054a02301aebc1.jpg",
+    "static/media/swiper_photo_5.jpg": "/daniellebaione/static/media/swiper_photo_5.b458bdc3e73263aa9426.jpg",
+    "static/media/swiper_photo_4.jpg": "/daniellebaione/static/media/swiper_photo_4.3665cd4c470ad2e8badd.jpg",
+    "static/media/swiper_photo_3.jpg": "/daniellebaione/static/media/swiper_photo_3.cb99232bc16aad11307d.jpg",
+    "static/media/slider_image_1.jpg": "/daniellebaione/static/media/slider_image_1.f2156fb23b530bcaac7a.jpg",
+    "index.html": "/daniellebaione/index.html",
+    "main.6e75303d.css.map": "/daniellebaione/static/css/main.6e75303d.css.map",
+    "main.617ce6a3.js.map": "/daniellebaione/static/js/main.617ce6a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e75303d.css",
+    "static/js/main.617ce6a3.js"
+  ]
+}
